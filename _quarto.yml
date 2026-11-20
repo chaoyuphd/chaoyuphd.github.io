@@ -1,0 +1,46 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - .nojekyll
+
+website:
+  title: "Chao Yu"
+  site-url: "https://chaoyuphd.github.io"
+  description: "Chao Yu, Assistant Professor of Integrated Marketing Communications at the Medill School, Northwestern University."
+  page-navigation: false
+  search: false
+  navbar:
+    left:
+      - href: index.qmd
+        text: About
+      - href: publications.qmd
+        text: Publications
+      - href: teaching.qmd
+        text: Teaching
+      - href: files/Yu_CV.pdf
+        text: CV
+    right:
+      - icon: envelope
+        href: "mailto:chao.yu@northwestern.edu"
+        aria-label: Email
+      - icon: mortarboard-fill
+        href: "https://scholar.google.com/citations?user=A60X2NYAAAAJ"
+        aria-label: Google Scholar
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/chao-yu-19930056"
+        aria-label: LinkedIn
+      - icon: github
+        href: "https://github.com/chaoyuphd"
+        aria-label: GitHub
+  page-footer:
+    left: "© 2026 Chao Yu"
+    right: "[Medill School, Northwestern University](https://www.medill.northwestern.edu/directory/faculty/chao-yu.html)"
+
+format:
+  html:
+    theme: [cosmo, custom.scss]
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    anchor-sections: false

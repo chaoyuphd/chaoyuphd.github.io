@@ -1,0 +1,44 @@
+---
+pagetitle: "Chao Yu | Northwestern University"
+---
+
+```{=html}
+<div class="profile">
+  <div class="profile-photo"><img src="files/photo.jpg" alt="Portrait of Chao Yu"></div>
+  <div>
+    <p class="profile-name">Chao Yu</p>
+    <p class="profile-role">Assistant Professor, Integrated Marketing Communications<br>
+    Medill School, Northwestern University</p>
+    <p class="profile-links">
+      <a href="mailto:chao.yu@northwestern.edu">chao.yu@northwestern.edu</a>
+      <a href="files/Yu_CV.pdf">CV (PDF)</a>
+      <a href="https://scholar.google.com/citations?user=A60X2NYAAAAJ">Google Scholar</a>
+      <a href="https://www.linkedin.com/in/chao-yu-19930056">LinkedIn</a>
+    </p>
+  </div>
+</div>
+```
+
+I am an Assistant Professor of Integrated Marketing Communications at the Medill School, Northwestern University. I study the social impacts of new media, with a focus on digital commercial platforms that collect data on consumer behavior. Using large-scale data from platforms such as Airbnb, Yelp, and OpenTable, I look for patterns that can create bias or inequality, including racial and cultural bias in how consumers choose and review hosts and restaurants. A goal of this work is to identify platform policies and strategies that reduce these problems and support more equitable outcomes. Other projects examine political talk on social media, science communication on YouTube and TikTok, and how generative AI is changing the way businesses reply to their customers.
+
+Before joining Medill, I was an Assistant Professor in the Department of Communications and New Media at the National University of Singapore. I received my Ph.D. in Communication from Cornell University, where I was also a postdoctoral researcher.
+
+## Selected Publications
+
+::: {.pub-list}
+**Yu, C.** (in press). Protection, promotion, and accountability: Divergent signals of racial ingroup favoritism in platform reviews. *Communication Research*.
+
+Park, M., **Yu, C.**, & Macy, M. (2023). Fighting bias with bias: How same-race endorsements reduce racial discrimination on Airbnb. *Science Advances*, *9*(6), eadd2315. [DOI](https://doi.org/10.1126/sciadv.add2315){.pub-link}
+
+**Yu, C.**, & Margolin, D. B. (2024). Topic territoriality and the cost of civility: Examining the impact of IP address disclosure on Weibo. *Journal of Computer-Mediated Communication*, *29*(6). [DOI](https://doi.org/10.1093/jcmc/zmae018){.pub-link}
+:::
+
+[All publications →](publications.qmd)
+
+## Education
+
+::: {.pub-list}
+Ph.D. and M.S., Communication, Cornell University, 2021
+
+B.A., Journalism, Peking University, 2015
+:::

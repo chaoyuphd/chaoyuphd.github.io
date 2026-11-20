@@ -1,0 +1,33 @@
+---
+title: "Teaching"
+---
+
+## Northwestern University
+
+::: {.course-list}
+IMC 302: Research Data and Analytics (2024–present)
+
+IMC 463: Machine Learning I (2025–present)
+:::
+
+## National University of Singapore
+
+::: {.course-list}
+Introduction to Audience Analytics (2024)
+
+Uses of Communication Research (2023)
+:::
+
+## Cornell University
+
+::: {.course-list}
+New Media and Society (2023)
+
+Communication and Technology (2022–2023)
+
+Media Communication (2021–2022)
+
+Oral Communication (2020)
+:::
+
+[Outstanding Teaching Assistant Award, Cornell University, 2021.]{.legend}

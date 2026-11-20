@@ -1,0 +1,81 @@
+/*-- scss:defaults --*/
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap");
+
+// Northwestern Purple (brand primary) and a darker shade for hover states
+$nu-purple: #4E2A84;
+$nu-purple-dark: #401F68;
+$nu-purple-tint: #F3F0F8;
+
+$primary: $nu-purple;
+$link-color: $nu-purple;
+$body-color: #262626;
+$text-muted: #5f5f66;
+
+$font-family-sans-serif: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+$headings-font-family: "Source Serif 4", Georgia, serif;
+$headings-font-weight: 600;
+$font-size-base: 1.06rem;
+$line-height-base: 1.6;
+
+$navbar-bg: $nu-purple;
+$navbar-fg: #ffffff;
+$navbar-hl: #ffffff;
+$footer-bg: #ffffff;
+$footer-fg: $text-muted;
+
+/*-- scss:rules --*/
+.navbar {
+  border-bottom: 4px solid $nu-purple-dark;
+  .navbar-brand .navbar-title { font-family: $headings-font-family; font-weight: 600; letter-spacing: .01em; }
+  .nav-link { opacity: .88; }
+  .nav-link.active, .nav-link:hover { opacity: 1; text-decoration: underline; text-underline-offset: 6px; }
+}
+
+a { text-decoration: none; }
+a:hover { color: $nu-purple-dark; text-decoration: underline; }
+
+main h1.title, h2 { color: $nu-purple; }
+h2 {
+  font-size: 1.35rem;
+  margin-top: 2.2rem;
+  padding-bottom: .3rem;
+  border-bottom: 1px solid #e3dded;
+}
+h3 { font-size: 1.1rem; margin-top: 1.6rem; color: $body-color; }
+
+// About page header
+.profile {
+  display: flex; gap: 2rem; align-items: flex-start;
+  margin: 1rem 0 1.5rem;
+  .profile-photo { flex: 0 0 auto; }
+  .profile-photo img {
+    width: 170px; height: 212px; object-fit: cover; object-position: center 22%;
+    border-radius: 4px; border-bottom: 4px solid $nu-purple;
+  }
+  > div { min-width: 0; }
+  .profile-name { font-family: $headings-font-family; font-size: 2.1rem; font-weight: 600; color: $nu-purple; margin: 0; line-height: 1.2; }
+  .profile-role { margin: .35rem 0 0; font-size: 1.08rem; }
+  .profile-links { margin-top: .9rem; font-size: .98rem; display: flex; flex-wrap: wrap; gap: .35rem 1.2rem; }
+}
+@media (max-width: 576px) {
+  .profile { flex-direction: column; gap: 1rem; }
+}
+
+// Publication and course lists
+.pub-list p, .course-list p {
+  margin: 0 0 1rem;
+  padding-left: 1.2rem;
+  text-indent: -1.2rem;
+}
+.pub-note { display: block; text-indent: 0; margin-top: .3rem; font-size: .93rem; line-height: 1.5; color: $text-muted; }
+.pub-link {
+  display: inline-block; margin-left: .35rem; padding: 0 .45rem;
+  font-size: .8rem; line-height: 1.5; text-indent: 0;
+  border: 1px solid $nu-purple; border-radius: 3px; color: $nu-purple;
+}
+.pub-link:hover { background: $nu-purple; color: #fff; text-decoration: none; }
+.legend { color: $text-muted; font-size: .95rem; }
+
+.nav-footer { border-top: 1px solid #e3dded; font-size: .9rem; }
+
+main { overflow-wrap: anywhere; }
